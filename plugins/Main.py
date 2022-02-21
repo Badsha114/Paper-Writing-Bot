@@ -25,7 +25,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 async def help_user(client, message):
     await AddUser(client, message)
     rsr1 = [[
-            InlineKeyboardButton("Developer", user_id="1060318977"),
+            InlineKeyboardButton("Developer", user_id="@kingBadsha3232"),
             ]]
     await client.send_message(
         chat_id=message.chat.id,
@@ -41,14 +41,14 @@ async def help_user(client, message):
 async def start(client, message):
     await AddUser(client, message)
     rsr2 = [[
-            InlineKeyboardButton("Developer", user_id="1060318977")
+            InlineKeyboardButton("Developer", user_id="@kingBadsha3232")
             ],[
             InlineKeyboardButton("About", callback_data="about"),
-            InlineKeyboardButton("Source", url="https://github.com/RSR-TG-Info/Handwritingbot")
+            InlineKeyboardButton("Source", url="@Badsha_Bot_Updates")
         ]]
     await client.send_message(
         chat_id=message.chat.id,
-        text="Hello {}\n\nI am Handwriting converter Bot, send me any text, I'll convert to Handwriting.".format(message.from_user.mention),
+        text="Hello {}\n\nI am Paper Writing Bot By @kingBadsha3232 , send me any text, I'll Paste into paper 📜.".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(rsr2),
         reply_to_message_id=message.message_id
     )
