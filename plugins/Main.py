@@ -44,7 +44,7 @@ async def start(client, message):
             InlineKeyboardButton("Developer", url="https://t.me/kingBadsha3232")
             ],[
             InlineKeyboardButton("About", callback_data="about"),
-            InlineKeyboardButton("Source", url="@Badsha_Bot_Updates")
+            InlineKeyboardButton("Source", url="https://t.me/Badsha_Bot_Updates")
         ]]
     await client.send_message(
         chat_id=message.chat.id,
