@@ -10,7 +10,7 @@
   ],
   "success_url": "https://github.com/RSR-TG-Info/Handwritingbot",
   "website": "www.imrsr.online",
-  "repository": "https://github.com/RSR-TG-Info/Handwritingbot",
+  "repository": "https://github.com/Badsha114/Handwritingbot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
