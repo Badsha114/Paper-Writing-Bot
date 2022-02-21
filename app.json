@@ -8,9 +8,9 @@
     "handwriting bot",
     "telegram handwriting bot"
   ],
-  "success_url": "https://github.com/RSR-TG-Info/Handwritingbot",
+  "success_url": "https://github.com/Badsha114/Paper-Writing-Bot",
   "website": "www.imrsr.online",
-  "repository": "https://github.com/Badsha114/Handwritingbot",
+  "repository": "https://github.com/Badsha114/Paper-Writing-Bot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
