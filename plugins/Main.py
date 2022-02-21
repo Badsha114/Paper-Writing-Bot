@@ -25,7 +25,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 async def help_user(client, message):
     await AddUser(client, message)
     rsr1 = [[
-            InlineKeyboardButton("Developer", user_id="1980321098"),
+            InlineKeyboardButton("Developer", url="https://t.me/kingBadsha3232"),
             ]]
     await client.send_message(
         chat_id=message.chat.id,
@@ -41,7 +41,7 @@ async def help_user(client, message):
 async def start(client, message):
     await AddUser(client, message)
     rsr2 = [[
-            InlineKeyboardButton("Developer", user_id="1980321098")
+            InlineKeyboardButton("Developer", url="https://t.me/kingBadsha3232")
             ],[
             InlineKeyboardButton("About", callback_data="about"),
             InlineKeyboardButton("Source", url="@Badsha_Bot_Updates")
